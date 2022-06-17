@@ -21,14 +21,29 @@
 }
 
 #nav-link a:hover {
-    color: #389C89ff;
-    text-decoration: underline;
+    color: #1CB3E6ff;
+    text-decoration: none;
 }
 
 #title {
-  color: #389C89ff;
+  color: #F4F4F4ff;
   text-align: center;
   font-size: 40px;
+}
+
+#title1 {
+  color: #F4F4F4ff;
+  text-align: center;
+  font-size: 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+
 }
 
 input {
@@ -44,19 +59,38 @@ input {
   text-align: center;
 }
 
+#space {
+  margin: 100px;
+}
+
 #home {
-  padding: 10px;
+  margin: 20px;
+  padding: 100px;
+  border-radius: 10px;
   border: solid 1px #F4F4F4ff;
+}
+#home:hover {
+  border: solid 5px #1CB3E6ff;
 }
 
 #watch {
-  padding: 10px;
+  margin: 20px;
+  padding: 100px;
+  border-radius: 10px;
   border: solid 1px #F4F4F4ff;
+}
+#watch:hover {
+  border: solid 5px #1CB3E6ff;
 }
 
 #pricing {
-  padding: 10px;
+  margin: 20px;
+  padding: 100px;
+  border-radius: 10px;
   border: solid 1px #F4F4F4ff;
+}
+#pricing:hover {
+  border: solid 5px #1CB3E6ff;
 }
 
 #submit{
