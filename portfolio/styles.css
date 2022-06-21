@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #F4F4F4ff;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0;
+  height: 100%;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+.myself {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
